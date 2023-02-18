@@ -1,6 +1,6 @@
 FROM python:3.9
-WORKDIR /app
-COPY . /app
+WORKDIR /front_end
+COPY . /front_end
 RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
-CMD ["python", "app.py"]
+CMD ["python", "front_end.py"]
