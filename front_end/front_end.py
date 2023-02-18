@@ -9,11 +9,6 @@ def index():
 
 @app.route('/api/analyze', methods=['POST'])
 	site = request.form['site']
-#        response = requests.post('https://example.com/api', data={'user_input': user_input})
-#        if response.status_code == 200:
-#            return 'Success!'
-#        else:
-#            return 'Error'
 
 if __name__ == '__main__':
 	app.run(ssl_context='adhoc')
