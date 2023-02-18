@@ -1,5 +1,5 @@
 import unittest
-from app import app
+from front_end import front_end
 
 class TestApp(unittest.TestCase):
 
