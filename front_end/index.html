@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Analyzer</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Site Analyzer</h1>
+		<form method="post" action="/api/analyze">
+			<div class="form-group">
+				<label for="site">Web site address</label>
+				<input type="text" class="form-control" id="site" name="site" required>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
